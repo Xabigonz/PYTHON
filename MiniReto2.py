@@ -3,9 +3,9 @@
 alumnos = ["Julio", "Arturo", "Dani"]
 
 
-for i in alumnos:
-    asistido = input(f"{alumnos[i]} ha venido? (S/N)")
-    if (asistido == "S"):
-        print(f"{alumnos[i]} Ha asistido")
+for alumno in alumnos:
+    asistido = input(f"{alumno} ha venido? (S/N)")
+    if asistido == "S":
+        print(f"{alumno} Ha asistido")
     else:
-        print(f"{alumnos[i]} No ha asistido")
+        print(f"{alumno} No ha asistido")

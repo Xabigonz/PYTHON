@@ -8,6 +8,7 @@ alumnos = ["Julio", "Arturo", "Dani"]
 asistiencia = []
 total = 0
 
+
 for alumno in alumnos:
     asistido = input(f"{alumno} ha venido? (S/N)")
     if asistido == "S":
@@ -28,3 +29,16 @@ notas = [4,8,9]
 avg = np.mean(notas)
 print(f"Estás son las notas que habeis obtenido: {notas} \n"
        f"y estas la media de clase {avg}")
+
+# Es posible ponerlo antes pero no me ape XD
+# Añadir alumnos a la lista
+
+añadir = input("Desea añadir alumnos a la lista?: (N/S) ")
+
+for alumno in alumnos:
+    if añadir == "S":
+        alumnos.append(añadir)
+    else:
+        print("No se han realizado cambios")
+        pass
+print(alumnos)

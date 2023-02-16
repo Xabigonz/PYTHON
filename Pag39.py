@@ -40,3 +40,5 @@ for numeroAdiv in vidas:
 
         print (f"El numero es correcto, es {numeroAdiv}")
         break
+
+# Fin del archio loco

@@ -28,4 +28,11 @@
   >  "el codigo utilizado"
   >  ```
 
-  Con esto haremos lo mencionado anteriormente, si inputeamos el numero 3 veces de forma erronea el bucle terminaría.
+  Con esto haremos lo mencionado anteriormente, si hacemo input del numero 3 veces de forma erronea el bucle terminaría.
+
+<!-- Cambio en el README
+El cambio es de ejemplo; lo importante es 
+que hemos cambiado el url de enlace a nuestro repositorio
+y nos ha llevado a un visualStudio web que está vinculado
+a nuestro repositorio.
+-->

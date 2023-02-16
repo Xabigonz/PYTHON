@@ -1,9 +1,9 @@
-from urllib.request import urlopen
+# from urllib.request import urlopen
 
-page = urlopen("http://info.cern.ch/")
-content = page.read() 
-print(content) 
-#Esto lo muestra como html.
+# page = urlopen("http://info.cern.ch/")
+# content = page.read() 
+# print(content) 
+# #Esto lo muestra como html.
 
 # import urllib.requests
 
@@ -17,4 +17,18 @@ print(content)
 # print(resp.json())
 
 
-help("requests")
+# help("requests")
+
+import uuid
+
+print("El UUID uuid1() es : ", end="")
+print(uuid.uuid1())
+
+import markdown
+
+ output = markdown.markdown("
+ 
+ ### Se puede importar markdown a Python:
+ 
+ 
+ ")

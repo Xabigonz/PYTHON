@@ -28,7 +28,7 @@
   >  "el codigo utilizado"
   >  ```
 
-  Con esto haremos lo mencionado anteriormente, si inputeamos el numero 3 veces de forma erronea el bucle terminaría.
+  Con esto haremos lo mencionado anteriormente, si hacemo input del numero 3 veces de forma erronea el bucle terminaría.
 
 <!-- Cambio en el README
 El cambio es de ejemplo; lo importante es 

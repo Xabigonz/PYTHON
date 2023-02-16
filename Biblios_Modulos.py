@@ -1,9 +1,9 @@
-# from urllib.request import urlopen
+from urllib.request import urlopen
 
-# page = urlopen("http://info.cern.ch/")
-# content = page.read() 
-# print(content) 
-# #Esto lo muestra como html.
+page = urlopen("http://info.cern.ch/")
+content = page.read() 
+print(content) 
+#Esto lo muestra como html.
 
 from urllib3 import requests
 

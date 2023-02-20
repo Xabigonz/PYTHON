@@ -19,16 +19,25 @@
 
 # help("requests")
 
-import uuid
+# import uuid
 
-print("El UUID uuid1() es : ", end="")
-print(uuid.uuid1())
+# print("El UUID uuid1() es : ", end="")
+# print(uuid.uuid1())
 
-import markdown
+# import markdown
 
- output = markdown.markdown("
- 
- ### Se puede importar markdown a Python:
- 
- 
- ")
+# output = markdown.markdown("### Se puede importar markdown a Python: \n > Es un simple ejemplo de lo que es md aquí.")
+
+# print(output)
+
+from turtle import *
+
+color('blue','purple')
+begin_fill
+while True:
+    forward(300)
+    left(200)
+    if abs(pos()) < 1:
+        break
+end_fill()
+done()

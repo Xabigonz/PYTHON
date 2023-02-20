@@ -1,34 +1,34 @@
-# from urllib.request import urlopen
+from urllib.request import urlopen
 
-# page = urlopen("http://info.cern.ch/")
-# content = page.read() 
-# print(content) 
-# #Esto lo muestra como html.
+page = urlopen("http://info.cern.ch/")
+content = page.read() 
+print(content) 
+#Esto lo muestra como html.
 
-# import urllib.requests
+import urllib.requests
 
-# currency = "eur"
-# basecurrency = "aud"
+currency = "eur"
+basecurrency = "aud"
 
-# url = "http://freecurrencyrates.com/api/action.php?do=cvals&iso=" + currency + "&f=" + basecurrency + "&v=1&s=cbr"
-# resp = requests.get(url)
+url = "http://freecurrencyrates.com/api/action.php?do=cvals&iso=" + currency + "&f=" + basecurrency + "&v=1&s=cbr"
+resp = requests.get(url)
 
-# print(resp.text)
-# print(resp.json())
+print(resp.text)
+print(resp.json())
 
 
-# help("requests")
+help("requests")
 
-# import uuid
+import uuid
 
-# print("El UUID uuid1() es : ", end="")
-# print(uuid.uuid1())
+print("El UUID uuid1() es : ", end="")
+print(uuid.uuid1())
 
-# import markdown
+import markdown
 
-# output = markdown.markdown("### Se puede importar markdown a Python: \n > Es un simple ejemplo de lo que es md aquí.")
+output = markdown.markdown("### Se puede importar markdown a Python: \n > Es un simple ejemplo de lo que es md aquí.")
 
-# print(output)
+print(output)
 
 from turtle import *
 
@@ -40,4 +40,16 @@ while True:
     if abs(pos()) < 1:
         break
 end_fill()
-done()
+
+import random
+
+x = random.random()
+y = random.randint(0,100)
+print(x,y)
+frutas = ["manzana", "platano", "kiwi"]
+
+z = random.choice(frutas)
+
+print(z)
+
+print(help(random.choices))

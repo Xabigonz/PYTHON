@@ -28,14 +28,14 @@ print(c)
 
 
 
-# a = "Hola soy carmelo"
+a = "Hola soy carmelo"
 
-# #substring
+#substring
 
-# print(a[5:9])
+print(a[5:9])
 
-# #al reves
-# print(a[::-1])
+#al reves
+print(a[::-1])
 
-# #primeros 10
-# print(a[:10])
+#primeros 10
+print(a[:10])

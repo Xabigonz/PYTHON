@@ -25,3 +25,17 @@ a = lista.split("|")
 print(a)
 c = " ".join(str(i)for i in a)
 print(c)
+
+
+
+# a = "Hola soy carmelo"
+
+# #substring
+
+# print(a[5:9])
+
+# #al reves
+# print(a[::-1])
+
+# #primeros 10
+# print(a[:10])

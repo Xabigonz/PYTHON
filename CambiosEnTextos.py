@@ -38,3 +38,12 @@ else:
     print("No está")
 
 
+# Reemplazar palabras
+
+remplazo = t2.replace("Python", "PYTHON")
+print(remplazo)
+
+# Mayus todo.
+
+hola= t2.upper()
+print(hola)

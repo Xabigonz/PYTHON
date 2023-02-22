@@ -39,3 +39,25 @@ print(a[::-1])
 
 #primeros 10
 print(a[:10])
+
+
+# Dia despues, a modo de recordatiorio.
+
+nombres = ["Jon","Carmelo","Jon","Carmelo","Jon","Carmelo","Jon","Carmelo"]
+nLista1 = [nombre for nombre in nombres 
+          if nombre[0]=="J"] #Colocamos el nombre al principio porque es lo que queremos que devuelva.
+print(nLista1)
+
+import random
+
+
+nLista= []
+
+for i in range(0,10):
+    numerosAl = random.randint(-100,100)
+    nLista.append(numerosAl)
+
+print(nLista)
+
+nlista2=[num for num in nLista if num >= 0]
+print(nlista2)

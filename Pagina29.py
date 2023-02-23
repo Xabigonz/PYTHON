@@ -4,6 +4,7 @@ import getpass
 contra = str("123456")
 intentos = 5
 
+
 for i in range(intentos):
     pregunta = getpass.getpass("Introduzca la contraseña: ")
     

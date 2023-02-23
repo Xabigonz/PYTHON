@@ -13,3 +13,9 @@ if __name__ == '__main__':
     print(x, y)
 
 
+def sumar(x,y):
+    return x + y        #Obligatorio poner el return antes de lo que queramos que haga, si no no devuelve nada.
+
+if  __name__ == '__main__':
+    x = sumar(6,4)
+    print(x)

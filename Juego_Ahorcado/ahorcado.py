@@ -1,22 +1,26 @@
 import tkinter as tk
 
+
 #CREAR ELEMENTOS NECESARIOS PARA LA APLICACIÓN:
 
-frame = tk.Tk()
-panel = tk.Frame(frame)
-bot = tk.Button(panel, text="CLICKAME", background="red")
+framePanel = tk.Tk()
+
+bot = tk.Button(framePanel, text="CLICKAME", background="red")
 
 
 #EL PACK ES EL LAYOUT POR DEFECTO DE PYTHON, hay más: grid y demás.
-panel.grid()
-bot.grid(row=2,column=2,pady=14)
+
+bot.grid(pady=180, padx=172)
+
+#Crear un boton:
+
 
 
 #TAMAÑO Y VISUALIZAR:
 
 
-frame.title("Menú")
-frame.geometry("400x400")
+framePanel.title("Menú")
+framePanel.geometry("400x400")
 
 
-frame.mainloop()
+framePanel.mainloop()

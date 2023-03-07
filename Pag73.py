@@ -38,15 +38,7 @@ if __name__ == "__main__":
                     
             if fuel_lvl != 0:
                 peugeot.conducir()
-            else:
-                print("El coche no está conduciendo. Causa: ")
-
-                causa = print("Estas son las posibles causas: \n 1. Está sin gasolina. \n 2. Está averiado.")
-                
-                match causa:
-                    case 1:
-            
-                        pass
+           
         case 2:
             pass
 

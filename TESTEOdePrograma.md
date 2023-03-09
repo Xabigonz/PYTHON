@@ -36,3 +36,26 @@ que hemos cambiado el url de enlace a nuestro repositorio
 y nos ha llevado a un visualStudio web que está vinculado
 a nuestro repositorio.
 -->
+
+
+
+
+
+
+
+
+
+# Ejercicio de página 78:
+
+### Breve descripción:
+
+>Es un pequeño programa que calcula las nominas de los distintos trabajadores creados en el propio programa,   
+>con distintos metodos que mejoran el salario.
+
+### Diagrama del programa:
+
+| Sistema de nominas  | Empleado(Sistema de Nominas) | Programador(Empleado) | Analista(Empleado) |
+| --- | --- | --- | --- |
+|  | nombre
+salario ||  lenguaje_de_programación  |
+| calcular_nominas() | boostear_salario() |  |  |

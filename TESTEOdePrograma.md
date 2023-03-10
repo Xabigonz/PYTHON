@@ -54,8 +54,8 @@ a nuestro repositorio.
 
 ### Diagrama del programa:
 
-| Sistema de nominas  | Empleado(Sistema de Nominas) | Programador(Empleado) | Analista(Empleado) |
-| --- | --- | --- | --- |
-|  | nombre
-salario ||  lenguaje_de_programación  |
-| calcular_nominas() | boostear_salario() |  |  |
+|| Sistema de nominas  | Empleado(Sistema de Nominas) | Programador(Empleado) | Analista(Empleado) |
+| --- | --- | --- | --- | --- |
+|Atributos|  | nombre
+| |salario|  lenguaje_de_programación  |
+|Metodos| calcular_nominas() | boostear_salario() |  |  |

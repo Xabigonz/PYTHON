@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # #PAG 15 de Apuntes.
 
 ''' Preguntar al usuario por su salario. 
@@ -91,7 +91,7 @@ numAl = 2.4596
 
 print(f'Formateado con %3f y %2f %3f{numAl:.1f}' )
 # Redondea el resultado automaticamente
-=======
+
 # #PAG 15 de Apuntes.
 
 ''' Preguntar al usuario por su salario. 
@@ -184,4 +184,4 @@ numAl = 2.4596
 
 print(f'Formateado con %3f y %2f %3f{numAl:.1f}' )
 # Redondea el resultado automaticamente
->>>>>>> 6bfe401c2c60da2acc4d4ccdaeba2f48aa1da638
+

@@ -28,24 +28,27 @@ for num in lista:
 
 
 
-# INFORMACION BASE DEL TRIANGULO
-base = 10
-alt = 3
+def calcularArea(alt=3,base=10):
 
+    pregUser = float(input("Desea insertar valores o calcular el area del triangulo? (1/2)"))
+    
+    if pregUser == 1:
+        print(f"La altura del triangulo: {alt}")
+        print(f"La base del triangulo: {base}")
+        area = base*alt
+        return print(f"El area del rectangulo será de {area} metros.")
+    
+    elif pregUser == 2:
+        base = float(input("Inserta el balor de la base: "))
+        alt = float(input("Inserta el balor de la altura: "))
+        area = base * alt
+        return print(f"El area de su rectangulo es de {area}")
 
-
-
-pregUser = int(input("Desea insertar valores o calcular el area del triangulo? (1/2)"))
-if pregUser == 1:
-    base = int(input("Inserta el balor de la base: "))
-    alt = int(input("Inserta el balor de la altura: "))
-    area = (base * alt)/2
-    print(f"El area de su triangulo es de {area}")
-elif pregUser == 2:
-    print(f"La base del triangulo es {base} y su altura {alt}")
-    area = (base*alt)/2        
-    print(f"El area del triangulo es {area}")
-
-
+# ACCESO DEL USUARIO AL PROGRAMA
+if __name__ == '__main__':
+    calcularArea()
 
         
+
+
+    

@@ -10,8 +10,8 @@ lista = [5, 3, 12, -6, -3, 1, 6, 8, -12] # CREAR LISTA
 for num in lista: 
     if num < 0:
         pass
-    else:
-        print(f"Hola numero: {num}")
+    elif num == 6:
+        print(f"Hola numero {num}")
 
 #EL BUCLE RECORRE LA LISTA Y SI EL num ES < O NO HARÁ NADA Y POR EL CONTRARIO IMPRIMIRA SU VALOR.
 

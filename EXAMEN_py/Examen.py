@@ -31,8 +31,8 @@ class Perro(Animal):
 
 # CLASE HIJA
 class Pajaro(Animal):
-    def __init__(self, nombre, raza, patas, tipo):
-        super().__init__(nombre, raza, patas, tipo)
+    def __init__(self, nombre, patas, tipo):
+        super().__init__(nombre, patas, tipo)
 
 
 

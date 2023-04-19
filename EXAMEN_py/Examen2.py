@@ -29,19 +29,24 @@ for num in lista:
 
 
 # INFORMACION DEL TRIANGULO
-baseRec = 10
-altRec = 3
+base = 10
+alt = 3
 
 
 
-pregUser = int(input("Desea insertar valores o calcular el area del triangulo? (1/2)"))
+
 while True:
+    pregUser = int(input("Desea insertar valores o calcular el area del triangulo? (1/2)"))
     if pregUser == 1:
-        baseRec = int(input("Inserta el balor de la base: "))
-        altRec = int(input("Inserta el balor de la altura: "))
-        area = (baseRec * altRec)/2
+        base = int(input("Inserta el balor de la base: "))
+        alt = int(input("Inserta el balor de la altura: "))
+        area = (base * alt)/2
+        print(f"La altura de su triangulo es de {area}")
+        break
     elif pregUser == 2:
-        area = (baseRec*altRec)/2        
+        print(f"La base del triangulo es {base} y su altura {alt}")
+        area = (base*alt)/2        
         print(f"El area del triangulo es {area}")
+        break
 
         
